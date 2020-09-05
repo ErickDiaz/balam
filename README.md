@@ -18,6 +18,7 @@ The plate adapted for the Jetson Nano can be found here: https://www.thingiverse
 
 ###### Components:
 * Computer: Nvidia Jetson Nano
+* Front Camera: Intel Realsense camera D435i
 * Servo control board: PCA9685, controlled via i2c
 * Servos: 12 x MG996R
 * LCD Panel: 16x2 i2c LCD panel
