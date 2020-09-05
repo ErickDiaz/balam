@@ -1,7 +1,9 @@
 # Balam
-### Classical K'iche' jaguar
+#### Classical K'iche:' jaguar
 
 Boston Dynamics Spot inspired robot
+
+![Balam](assets/balam_dev.jpg)
 
 * [Overview](#Overview)
 
