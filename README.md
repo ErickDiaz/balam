@@ -3,7 +3,7 @@
 
 Boston Dynamics Spot inspired robot
 
-![Balam](assets/balam_dev.jpg)
+<img src="assets/balam_dev.jpg" width="50%" height="50%"/>
 
 * [Overview](#Overview)
 
