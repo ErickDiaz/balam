@@ -1,0 +1,17 @@
+ # yaml file to store the configurations
+
+# Servo parameters
+num_servos: 12
+rear_feet_right: 0
+rear_feet_left: 1
+front_feet_right: 2
+front_feet_left: 3
+rear_leg_right: 4
+rear_leg_left: 5
+front_leg_right: 6
+front_leg_left: 7
+rear_shoulder_right: 8
+rear_shoulder_left: 9
+front_shouder_right: 10
+front_shoulder_left: 11
+
