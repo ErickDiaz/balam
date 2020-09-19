@@ -4,8 +4,8 @@
 <!-- |    EDITING THIS FILE BY HAND IS NOT RECOMMENDED                                 | -->
 <!-- =================================================================================== -->
 <robot name="SpotMicroAI">
-  <material name="yellow">
-    <color rgba="0.92 0.83 0.0 1"/>
+  <material name="blue">
+    <color rgba="0.060 0.413 0.922 1"/>
   </material>
   <material name="black">
     <color rgba="0.1 0.1 0.1 1"/>
@@ -44,7 +44,7 @@
         <mesh filename="package://spotmicro_description/meshes/stl/backpart.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 3.1416" xyz="0.042 0.055 -0.0195"/>
-      <material name="yellow"/>
+      <material name="blue"/>
     </visual>
     <collision>
       <geometry>
@@ -70,7 +70,7 @@
         <mesh filename="package://spotmicro_description/meshes/stl/frontpart.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 3.1416" xyz="0.042 0.055 -0.0205"/>
-      <material name="yellow"/>
+      <material name="blue"/>
     </visual>
     <collision>
       <geometry>
@@ -115,7 +115,7 @@
         <mesh filename="package://spotmicro_description/meshes/stl/larm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 3.1416" xyz="0.134 -0.04 -0.0095"/>
-      <material name="yellow"/>
+      <material name="blue"/>
     </visual>
   </link>
   <link name="front_left_leg_link">
@@ -238,7 +238,7 @@
         <mesh filename="package://spotmicro_description/meshes/stl/rarm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 3.1416" xyz="0.134 0.149 -0.0095"/>
-      <material name="yellow"/>
+      <material name="blue"/>
     </visual>
   </link>
   <link name="front_right_leg_link">
@@ -361,7 +361,7 @@
         <mesh filename="package://spotmicro_description/meshes/stl/larm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 3.1416" xyz="0.134 -0.04 -0.0095"/>
-      <material name="yellow"/>
+      <material name="blue"/>
     </visual>
   </link>
   <link name="rear_left_leg_link">
@@ -484,7 +484,7 @@
         <mesh filename="package://spotmicro_description/meshes/stl/rarm_cover.stl" scale="0.001 0.001 0.001"/>
       </geometry>
       <origin rpy="0 0 3.1416" xyz="0.134 0.149 -0.0095"/>
-      <material name="yellow"/>
+      <material name="blue"/>
     </visual>
   </link>
   <link name="rear_right_leg_link">
