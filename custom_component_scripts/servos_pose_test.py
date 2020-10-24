@@ -13,7 +13,7 @@ print("Initializing ServoKit")
 kit = ServoKit(channels=16, i2c=i2c_bus0)
 # kit[0] is the bottom servo
 
-def lay_down():
+def rest_pose():
     ########### FEET ################
     # Rear rigth
     kit.servo[0].angle=180
@@ -27,10 +27,10 @@ def lay_down():
     time.sleep(0.5)
 
     ########### LEG ################
-    kit.servo[4].angle=90
-    kit.servo[5].angle=90
-    kit.servo[6].angle=90
-    kit.servo[7].angle=90
+    kit.servo[4].angle=0
+    kit.servo[5].angle=180
+    kit.servo[6].angle=0
+    kit.servo[7].angle=180
     time.sleep(0.5)
 
     ########### SHOULDER ################
@@ -40,29 +40,4 @@ def lay_down():
     kit.servo[11].angle=90
 
 
-
-def stand_up():
-    ########### FEET ################
-    # Rear rigth
-    kit.servo[0].angle=140
-    # Rear left
-    kit.servo[1].angle=40
-    # Front rigth
-    kit.servo[2].angle=140
-    # Front left
-    kit.servo[3].angle=40
-    time.sleep(0.5)
-    ########### LEG ################
-    # Right
-    #kit.servo[4].angle=110
-    #kit.servo[6].angle=110
-    # Left
-    #kit.servo[5].angle=70
-    #kit.servo[7].angle=70
-
-
-lay_down()
-time.sleep(0.5)
-stand_up()
-time.sleep(1)
-lay_down()
+rest_pose()
