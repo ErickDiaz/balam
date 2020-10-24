@@ -13,7 +13,7 @@ Made available under GNU GENERAL PUBLIC LICENSE
 """
 #
 #
-import smbus
+import smbus2 as smbus
 from time import *
 
 

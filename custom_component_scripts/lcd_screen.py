@@ -1,5 +1,5 @@
 import socket
-from custom_component_scripts import LCD_16x2_I2C_driver
+import LCD_16x2_I2C_driver
 import time
 
 screen = LCD_16x2_I2C_driver.lcd()
@@ -48,10 +48,10 @@ def get_ip_address():
     return ip_address
 
 
-screen.lcd_display_string("SpotMicro AI", 1)
+screen.lcd_display_string("BALAM", 1)
 
 str_pad = " " * 16
-display = "Running tests on spot micro" 
+display = "Running tests on Balam" 
 
 for i in range (0, len(display)):
     lcd_text = display[i:(i+16)]
